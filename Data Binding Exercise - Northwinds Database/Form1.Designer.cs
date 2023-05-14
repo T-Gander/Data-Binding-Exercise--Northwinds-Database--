@@ -114,6 +114,7 @@
             this.btnFirstRecord.TabIndex = 8;
             this.btnFirstRecord.Text = "First Record";
             this.btnFirstRecord.UseVisualStyleBackColor = true;
+            this.btnFirstRecord.Click += new System.EventHandler(this.btnFirstRecord_Click);
             // 
             // btnPreviousRecord
             // 
@@ -123,6 +124,7 @@
             this.btnPreviousRecord.TabIndex = 9;
             this.btnPreviousRecord.Text = "<";
             this.btnPreviousRecord.UseVisualStyleBackColor = true;
+            this.btnPreviousRecord.Click += new System.EventHandler(this.btnPreviousRecord_Click);
             // 
             // btnNextRecord
             // 
@@ -132,6 +134,7 @@
             this.btnNextRecord.TabIndex = 10;
             this.btnNextRecord.Text = ">";
             this.btnNextRecord.UseVisualStyleBackColor = true;
+            this.btnNextRecord.Click += new System.EventHandler(this.btnNextRecord_Click);
             // 
             // btnLastRecord
             // 
@@ -141,6 +144,7 @@
             this.btnLastRecord.TabIndex = 11;
             this.btnLastRecord.Text = "Last Record";
             this.btnLastRecord.UseVisualStyleBackColor = true;
+            this.btnLastRecord.Click += new System.EventHandler(this.btnLastRecord_Click);
             // 
             // frmNorthwind
             // 

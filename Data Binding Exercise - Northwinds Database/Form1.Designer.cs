@@ -161,6 +161,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmNorthwind";
             this.Text = "Northwind Database Form";
+            this.Load += new System.EventHandler(this.frmNorthwind_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
